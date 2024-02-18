@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+}
+section.calculadora{
+    margin: 10vw;
+    background-color: white;
+    text-align: center;
+    padding: 20px 30px 80px 30px;
+    box-shadow:  5px 5px 25px rgba(0, 0, 0, 0.079);
+    
+    font: normal 15pt Arial;
+}
+label{
+    padding: 10px;
+}
+input{
+    text-align: center;
+    font-size: 12pt;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+h1{
+    font-size: 18pt;
+}
+button{
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: orangered;
+    color: white;
+    font-size: 14pt;
+    border: 0;
+    transition: ease-in-out .3s;
+}
+button:hover{
+    transform: scale(1.05); transition: ease-in-out .3s;
+    background-color: white;
+    color: orangered;
+    border: 1px solid rgb(255, 68, 0);
+}
